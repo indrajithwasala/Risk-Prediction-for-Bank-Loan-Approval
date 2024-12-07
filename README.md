@@ -1,5 +1,3 @@
-# indrajithwasala-Risk-Prediction-for-Bank-Loan-Approval
-
 # Credit Risk Assessment Model using the German Credit Dataset
 
 ### Objective:
