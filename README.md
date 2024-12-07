@@ -1,4 +1,4 @@
-# Credit Risk Assessment Model using the German Credit Dataset
+# Risk Prediction to Improve Strategies for Bank Loan Approval
 
 ### Objective:
 The objective of this project is to build a credit risk assessment model using the German Credit Dataset, which contains customer and loan-related features. The goal is to predict whether an applicant is a good credit risk (likely to repay the loan) or a bad credit risk (likely to default). This model is designed to assist financial institutions in making informed decisions about loan approvals and managing lending risks effectively.
