@@ -7,7 +7,7 @@ The dataset consists of 1000 observations and 21 variables. The target variable 
 
 ### Data Cleaning and Preprocessing:
 1. **Missing Value Handling**: We begin by identifying and addressing missing values. Numerical features with missing values are imputed using the mean or median, based on the distribution. Categorical features with missing values are replaced with the mode or a new category like “Unknown.”
-2. **Normalization**: To ensure all features are on the same scale, we apply normalization, which scales numerical features between 0 and 1, preventing features with large ranges from dominating the model.
+2. **Normalization**: To ensure all features are on the same scale, we apply min-max normalization, which scales numerical features between 0 and 1, preventing features with large ranges from dominating the model.
 3. **Log Transformation for Skewed Data**: Skewed numerical features undergo logarithmic transformation to reduce skewness, improving the performance of machine learning models.
 4. **Rebinning for Ordinal Features**: For categorical features with many levels (e.g., “Checking Account Status”), we group them into fewer meaningful bins to reduce noise and enhance model performance.
 
